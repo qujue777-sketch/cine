@@ -1,0 +1,22 @@
+{
+  "name": "cine-movie-universe",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "CINÉ 电影宇宙 — 电影发现与收藏平台",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "vite build && npx wrangler@latest pages deploy dist"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-router-dom": "6.30.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.3.4",
+    "vite": "5.4.11"
+  }
+}
